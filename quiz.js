@@ -35,10 +35,9 @@ const books = [
 // const res = greatAuthors(books);
 // console.log(res);
 
-// Overdid the code above...
-
-
-// Solution is :
+// I overdid the code above...
+// ------------------
+// Solution is:
 
 const greatAuthors = books.filter((book) => (book.sales > 1000000)).map(({author, title}) => {
     return `${author} adalah penulis buku ${title} yang sangat hebat!`
